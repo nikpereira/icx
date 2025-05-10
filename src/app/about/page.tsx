@@ -68,7 +68,7 @@ export default function About() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="bg-[#2D2D2D] rounded-lg p-8 text-white"
+              className="bg-[#FFFFFF] rounded-lg shadow-lg p-8 text-white"
             >
               <h3 className="text-2xl font-bold mb-4">Our Values</h3>
               <ul className="space-y-4">
@@ -105,7 +105,7 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-custom-white rounded-lg shadow-lg p-6"
+                className="bg-[#FFFFFF] rounded-lg shadow-lg p-6"
               >
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   {member.name}

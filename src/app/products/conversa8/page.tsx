@@ -85,7 +85,7 @@ export default function Conversa8() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-custom-white rounded-lg shadow-lg p-6"
+                className="bg-[#FFFFFF] rounded-lg shadow-lg p-6"
               >
                 <div className="text-4xl mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
@@ -179,7 +179,7 @@ export default function Conversa8() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-custom-white rounded-lg shadow-lg p-6"
+                className="bg-[#FFFFFF] rounded-lg shadow-lg p-6"
               >
                 <p className="text-gray-600 mb-4">&quot;{testimonial.quote}&quot;</p>
                 <div>
