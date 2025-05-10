@@ -61,14 +61,14 @@ export default function About() {
                 We strive to empower businesses and individuals with innovative technology solutions that drive growth and efficiency. Our commitment to excellence and customer satisfaction sets us apart in the industry.
               </p>
               <p className="text-gray-600">
-                Through continuous innovation and a customer-first approach, we aim to be at the forefront of technological advancement, creating solutions that make a real difference in people's lives.
+                Through continuous innovation and a customer-first approach, we aim to be at the forefront of technological advancement, creating solutions that make a real difference in people&apos;s lives.
               </p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="bg-[#FFFFFF] rounded-lg shadow-lg p-8 text-white"
+              className="bg-[#2D2D2D] rounded-lg p-8 text-white"
             >
               <h3 className="text-2xl font-bold mb-4">Our Values</h3>
               <ul className="space-y-4">
