@@ -181,7 +181,7 @@ export default function Investiga8() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-lg shadow-lg p-6"
               >
-                <p className="text-gray-600 mb-4">"{testimonial.quote}"</p>
+                <p className="text-gray-600 mb-4">&quot;{testimonial.quote}&quot;</p>
                 <div>
                   <p className="font-semibold text-gray-900">{testimonial.author}</p>
                   <p className="text-gray-500">{testimonial.role}</p>

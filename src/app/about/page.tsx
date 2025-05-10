@@ -41,7 +41,7 @@ export default function About() {
               About <span className="text-[#FF4B4B]">Us</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              We are a team of innovators dedicated to creating cutting-edge solutions that transform industries.
+              We&apos;re a team of passionate innovators dedicated to creating cutting-edge solutions that transform industries.
             </p>
           </motion.div>
         </div>

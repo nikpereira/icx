@@ -60,7 +60,7 @@ export default function Conversa8() {
               Conversa8
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform your team's communication with our intelligent conversation platform.
+              We&apos;re revolutionizing the way teams communicate and collaborate.
             </p>
             <div className="flex justify-center gap-4">
               <Link href="/contact" className="btn btn-primary">
@@ -181,7 +181,7 @@ export default function Conversa8() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-white rounded-lg shadow-lg p-6"
               >
-                <p className="text-gray-600 mb-4">"{testimonial.quote}"</p>
+                <p className="text-gray-600 mb-4">&quot;{testimonial.quote}&quot;</p>
                 <div>
                   <p className="font-semibold text-gray-900">{testimonial.author}</p>
                   <p className="text-gray-500">{testimonial.role}</p>
