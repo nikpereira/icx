@@ -17,7 +17,7 @@
 
 @layer components {
   .btn {
-    @apply px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105;
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300;
   }
   
   .btn-primary {
@@ -25,7 +25,7 @@
   }
   
   .btn-secondary {
-    @apply bg-[#2D2D2D] text-white hover:bg-[#1A1A1A];
+    @apply bg-[#2D2D2D] text-white hover:bg-[#1F1F1F];
   }
   
   .nav-link {
@@ -33,6 +33,10 @@
   }
   
   .section-title {
-    @apply text-3xl font-bold mb-8 text-[#2D2D2D];
+    @apply text-3xl font-bold text-gray-900 mb-12;
+  }
+
+  .bg-custom-white {
+    @apply bg-[#FFFFFF];
   }
 }
